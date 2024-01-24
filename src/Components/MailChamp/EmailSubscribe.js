@@ -41,8 +41,8 @@ export default function EmailSubscribe() {
 			       value={formData.email}
 			       required={true}
 			/>
-			<button id='subscribeMailChampBtn' name='subscribeMailChampBtn' type="submit" className='subscribeButton' disabled={subscribing}>Subscribe
-				Free Newsletter
+			<button id='subscribeMailChampBtn' name='subscribeMailChampBtn' type="submit" className='subscribeButton' disabled={subscribing}>
+				Subscribe: Free System Design Newsletter
 			</button>
 		</form>
 	</div>)

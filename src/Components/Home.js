@@ -13,7 +13,7 @@ export default function Home() {
 		{/*<div class="separator"></div>*/}
 		<div className="container">
 			<h4>Crack your next Tech Interview</h4>
-			<h6 style={{color: "grey", marginTop: "50px"}}>We offer you 1:1 sessions for</h6>
+			<h6 style={{color: "grey", marginTop: "50px"}}>We offer group sessions for</h6>
 			<div className="row">
 				<div className="col-md-4">
 					<div className="box" style={{backgroundColor: "rgb(58,107,82)"}}>
