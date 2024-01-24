@@ -1,0 +1,40 @@
+.label {
+    color: rgb(40, 40, 40);
+    padding-right: 10px;
+    letter-spacing: .04rem;
+}
+
+.input {
+    text-align: center;
+    color: grey;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 5px;
+    min-height: 38px;
+    background-color: lightgrey;
+}
+
+.subscribeButton {
+    min-width: 130px;
+    min-height: 38px;
+    letter-spacing: .03rem;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 28px;
+    font-size: 12px;
+}
+
+.subscribeButton:hover {
+    /*background-color: lightskyblue;*/
+    /*box-shadow: 0 3px #999;*/
+}
+
+.subscribeButton:disabled {
+    background-color: lightgrey;
+}
+
+.subscribeButton:active {
+    background-color: lightblue;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}

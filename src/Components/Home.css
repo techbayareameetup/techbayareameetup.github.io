@@ -1,0 +1,55 @@
+.container {
+    /*margin-top: 30px;*/
+    text-align: center;
+    /*flex: 1;*/
+}
+
+.title-bar {
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    color: grey;
+    padding-left: 50px;
+    text-align: left;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.box {
+    color: white;
+    text-align: center;
+    background-color: #f8f9fa;
+    /*border: 1px solid #ccc;*/
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgb(178 169 169 / 30%);
+    border-radius: 10px;
+}
+
+.separator {
+    border-top: 1px solid #6c6a6a;
+    margin: 20px 0;
+}
+
+.paymentbutton:hover {
+    background-color: lightskyblue;
+    box-shadow: 0 3px #999;
+}
+
+.paymentbutton:active {
+    background-color: lightblue;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.footer {
+    background-color: grey;
+    min-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: lightgrey;
+    letter-spacing: 0.05em;
+    padding-top: 10px;
+    margin-top: 100px;
+    min-height: 100px;
+}
