@@ -6,12 +6,12 @@
 
 .input {
     text-align: center;
-    color: grey;
+    border: 1px solid grey;
     width: 250px;
     font-size: 15px;
     border-radius: 5px;
     min-height: 38px;
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
 }
 
 .subscribeButton {
@@ -22,10 +22,11 @@
     border-radius: 10px;
     height: 28px;
     font-size: 12px;
+    border: 1px solid grey;
 }
 
 .subscribeButton:hover {
-    /*background-color: lightskyblue;*/
+    background-color: lightskyblue;
     /*box-shadow: 0 3px #999;*/
 }
 
