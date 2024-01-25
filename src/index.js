@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom';
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+	gtmId: 'GTM-MZDSB75R'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 ReactDOM.render(
 	<React.StrictMode>
